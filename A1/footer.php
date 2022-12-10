@@ -1,0 +1,1 @@
+<footer class="w3-display-bottommiddle">Created by Jonathan Durloo &copy 2022</footer>
