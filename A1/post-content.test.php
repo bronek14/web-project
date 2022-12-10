@@ -37,9 +37,7 @@
 
         $create_datetime = date("Y-m-d H:i:s");
 
-
-
-        $query    = "INSERT into `announcements` (topic_id, post_content, username, email, create_datetime)
+        $query    = "INSERT into `Announcements` (topic_id, post_content, username, email, create_datetime)
                      VALUES ('$topic_id', '$post_content', '$username', '$email','$create_datetime')";
         $result   = mysqli_query($con, $query);
 
