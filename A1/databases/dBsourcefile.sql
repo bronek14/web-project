@@ -30,6 +30,8 @@ CREATE TABLE `Announcements` (
   `created` datetime NOT NULL DEFAULT current_timestamp()
   
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+INSERT into Announcements (topic_id, post_content,username, email) 
+                     VALUES ("Sports", 'My favorite sport it soccer','Bronek14','$bronek14@yahoo.com');
 
 
 

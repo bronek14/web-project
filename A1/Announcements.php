@@ -12,12 +12,8 @@ include("dash_header.php");
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    
-<?php
 
 
-        
-?>
 
 </p>              
    <!-- <button class="w3-input w3-button w3-black w3-round w3-text-white"> Create a Post</button> -->
