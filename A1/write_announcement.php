@@ -13,7 +13,7 @@
         $post_content = $_POST['content'];//content
         $email = $_POST['email'];//email
         //$create_datetime = date("Y-m-d H:i:s");
-        $username="";
+        $username = $_SESSION['username'];//username from session
         
          $sql = "INSERT into Announcements (topic_id, post_content,username, email, ) 
                      VALUES ('$topic_id', '$post_content','$username','$email')";
