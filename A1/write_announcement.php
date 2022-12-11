@@ -8,15 +8,16 @@
         include("dash_header.php");
     ?>
      <?php 
-        if ($_POST){
+        if ($_POST && !empty($_POST['content']) && !empty($_POST['email']) && !empty($_POST['topic_id'])){
         $topic_id = $_POST['topic_id'];//topic_id
         $post_content = $_POST['content'];//content
         $email = $_POST['email'];//email
+        $posted_on = date("Y-m-d H:i:s"); //date
         //$create_datetime = date("Y-m-d H:i:s");
-        $username = $_SESSION['username'];//username from session
+        $username = $_SESSION['username']; //username from session
         
-         $sql = "INSERT into Announcements (topic_id, post_content,username, email, ) 
-                     VALUES ('$topic_id', '$post_content','$username','$email')";
+         $sql = "INSERT into Announcements (topic_id, post_content,username, email, created ) 
+                     VALUES ('$topic_id', '$post_content','$username','$email', '$posted_on')";
 
         $results = mysqli_query($con, $sql);
 
