@@ -13,12 +13,12 @@
             <nav class="w3-bar w3-black">                   
                     <ul>
                     <h1>Student Community</h1>
-                    <a href="http://localhost:8888/A1/home.php"  class="w3-bar-item w3-button ">Home</a>
-                    <a href="http://localhost:8888/A1/about.php" class="w3-bar-item w3-button ">About</a>
-                    <a href="http://localhost:8888/A1/Announcements.php" class="w3-bar-item w3-button ">Announcements</a>
-                    <a href="http://localhost:8888/A1/General.php" class="w3-bar-item w3-button ">General Discussions</a>
-                    <!-- <a href="http://localhost:8888/A1/programming.php" class="w3-bar-item w3-button ">Programming</a> -->
-                    <!-- <a href="http://localhost:8888/A1/login.php" class="w3-bar-item w3-button ">Login</a> -->
+                    <a href="/home.php"  class="w3-bar-item w3-button ">Home</a>
+                    <a href="/about.php" class="w3-bar-item w3-button ">About</a>
+                    <a href="/Announcements.php" class="w3-bar-item w3-button ">Announcements</a>
+                    <a href="/General.php" class="w3-bar-item w3-button ">General Discussions</a>
+                    <!-- <a href="/programming.php" class="w3-bar-item w3-button ">Programming</a> -->
+                    <!-- <a href="/login.php" class="w3-bar-item w3-button ">Login</a> -->
                     </ul>   
                     <div>
                         <form class="w3-bar-item w3-button w3-right" action="Log-in.php" method="POST">
