@@ -20,7 +20,7 @@ include("dash_header.php");
  <a href="/write_announcement.php" class="w3-input w3-button w3-black w3-round w3-text-white"> Create a Post</a>
 </p>
 <?php
-    $sql = "SELECT * FROM Announcements ORDER BY created DESC";
+    $sql = "SELECT * FROM Announcements";
     $results = mysqli_query($con, $sql);
     if(!$results){
         echo " cant load";
