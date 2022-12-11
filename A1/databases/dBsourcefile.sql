@@ -26,10 +26,12 @@ CREATE TABLE `Announcements` (
   `topic_id` varchar(250) NOT NULL,
   `post_content` varchar(250) NOT NULL,
   `username` varchar(50) NOT NULL,
-  `email` varchar(50) NOT NULL,
+  `email` nvarchar(50) NOT NULL,
   `created` datetime NOT NULL DEFAULT current_timestamp()
   
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+INSERT into Announcements (topic_id, post_content,username, email) 
+                     VALUES ("Sports", 'My favorite sport it soccer','Bronek14','$bronek14@yahoo.com');
 
 
 

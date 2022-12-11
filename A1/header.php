@@ -13,9 +13,9 @@
             <nav class="w3-bar w3-black">                   
                     <ul>
                     <h1>Student Community</h1>
-                    <a href="http://localhost:8888/A1/home.php"  class="w3-bar-item w3-button ">Home</a>
-                    <a href="http://localhost:8888/A1/about.php" class="w3-bar-item w3-button ">About</a>
-                    <!-- <a href="http://localhost:8888/A1/login.php" class="w3-bar-item w3-button ">Login</a> -->
+                    <a href="/home.php"  class="w3-bar-item w3-button ">Home</a>
+                    <a href="/about.php" class="w3-bar-item w3-button ">About</a>
+                    <!-- <a href="/login.php" class="w3-bar-item w3-button ">Login</a> -->
                     </ul>   
                     <div>
                         <form class="w3-bar-item w3-button w3-right" action="Log-in.php" method="POST">
